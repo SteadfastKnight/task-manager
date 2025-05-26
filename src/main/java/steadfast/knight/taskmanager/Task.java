@@ -1,6 +1,7 @@
 package steadfast.knight.taskmanager;
 
 public class Task {
+
     private final String description;
     private boolean completed;
 
