@@ -16,7 +16,7 @@ class TaskManagerTest {
         manager.addTask("Read book");
 
         List<Task> tasks = manager.getTasks();
-        assertEquals(1, tasks.size());
+        assertEquals(2, tasks.size());
         assertEquals("Buy milk", tasks.get(0).getDescription());
     }
 
