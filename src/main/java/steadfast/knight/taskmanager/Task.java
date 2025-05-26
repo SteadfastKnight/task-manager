@@ -1,7 +1,7 @@
 package steadfast.knight.taskmanager;
 
 public class Task {
-    private String description;
+    private final String description;
     private boolean completed;
 
     public Task(String description) {
