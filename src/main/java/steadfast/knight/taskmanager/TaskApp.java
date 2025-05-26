@@ -3,6 +3,7 @@ package steadfast.knight.taskmanager;
 import java.util.Scanner;
 
 public class TaskApp {
+
     public static void main(String[] args) {
         TaskManager manager = new TaskManager();
         Scanner scanner = new Scanner(System.in);
