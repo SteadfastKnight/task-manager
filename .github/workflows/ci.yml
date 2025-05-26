@@ -24,3 +24,11 @@ jobs:
 
       - name: Build with Maven
         run: mvn --no-transfer-progress clean install
+
+      - name: Deploy - Copy JAR to deploy directory
+        run: |
+          mkdir -p deploy
+          cp target/*.jar deploy/
+
+      - name: List contents of deploy
+        run: ls -l deploy
